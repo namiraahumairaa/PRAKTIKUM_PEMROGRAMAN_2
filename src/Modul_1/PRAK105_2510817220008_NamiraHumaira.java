@@ -18,9 +18,8 @@ public class PRAK105_2510817220008_NamiraHumaira {
         double volume = PI * jariJari * jariJari * tinggi;
 
         System.out.println("Hasil Hitung: ");
-        System.out.printf("Volume tabung dengan jari-jari %.1f cm dan tinggi %.1f  adalah %.3f m3\n", jariJari, tinggi, volume);
+        System.out.printf(Locale.US, "Volume tabung dengan jari-jari %.1f cm dan tinggi %.1f cm adalah %.3f m3\n", jariJari, tinggi, volume);
 
         scan.close();
     }
-
 }

@@ -1,10 +1,11 @@
 package Modul_1;
 import java.util.Scanner;
+import java.util.Locale;
 
 public class PRAK101_2510817220008_NamiraHumaira {
 
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
+        Scanner scan = new Scanner(System.in).useLocale(Locale.US);
 
         System.out.print("Masukkan Nama Lengkap: ");
         String namaLengkap = scan.nextLine();
