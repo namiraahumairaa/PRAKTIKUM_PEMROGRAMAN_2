@@ -1,4 +1,4 @@
-package PRAK202_2510817220008_NamiraHumaira;
+package Modul_2.PRAK202_2510817220008_NamiraHumaira;
 
 public class Soal2Main {
     public static void main(String[] args) {

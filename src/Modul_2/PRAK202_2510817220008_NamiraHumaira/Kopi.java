@@ -1,20 +1,13 @@
-package PRAK202_2510817220008_NamiraHumaira;
+package Modul_2.PRAK202_2510817220008_NamiraHumaira;
 
 public class Kopi {
-    public String namaKopi;
-    public String ukuran;
-    public double harga;
+    public String namaKopi = "";
+    public String ukuran = "";
+    public double harga = 0;
 
-    private String pembeli;
+    private String pembeli = "";
 
     private static final double PAJAK = 0.11;
-
-    public Kopi() {
-        this.namaKopi = "";
-        this.ukuran = "";
-        this.harga = 0;
-        this.pembeli = "";
-    }
 
     public void info() {
         System.out.println("Nama Kopi: " + this.namaKopi);

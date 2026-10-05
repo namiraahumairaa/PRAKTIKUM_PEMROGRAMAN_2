@@ -1,4 +1,4 @@
-package PRAK203_2510817220008_NamiraHumaira;
+package Modul_2.PRAK203_2510817220008_NamiraHumaira;
 
 
 public class Pegawai {
