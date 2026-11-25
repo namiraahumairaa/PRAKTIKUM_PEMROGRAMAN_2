@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+        <?import javafx.scene.control.TableColumn?>
+        <?import javafx.scene.control.TableView?>
+        <?import javafx.scene.layout.BorderPane?>
+
+<BorderPane prefHeight="350.0" prefWidth="350.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Modul_6.MahasiswaController">
+   <center>
+      <TableView fx:id="tblMahasiswa" prefHeight="350.0" prefWidth="350.0" BorderPane.alignment="CENTER">
+        <columns>
+          <TableColumn fx:id="colNim" prefWidth="150.0" text="NIM" />
+          <TableColumn fx:id="colNama" prefWidth="198.0" text="Nama" />
+        </columns>
+      </TableView>
+   </center>
+</BorderPane>
